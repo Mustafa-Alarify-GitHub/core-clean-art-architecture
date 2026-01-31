@@ -1,0 +1,37 @@
+lib/
+└── core/
+    ├── auth/
+    │   ├── token_manager.dart
+    │
+    ├── constants/
+    │   ├── api_constants.dart
+    │   ├── app_constants.dart
+    │   └── storage_keys.dart
+    │
+    ├── error/
+    │   ├── failure.dart
+    │   ├── exceptions.dart
+    │   └── error_mapper.dart
+    │
+    ├── network/
+    │   ├── dio_client.dart
+    │   ├── interceptors/
+    │   │   ├── auth_interceptor.dart
+    │   │   ├── logging_interceptor.dart
+    │   │   └── connectivity_interceptor.dart
+    │   └── network_info.dart
+    │
+    ├── routing/
+    │   └── app_router.dart
+    │
+    ├── storage/
+    │   ├── hive_service.dart
+    │
+    ├── utils/
+    │
+    ├── widgets/
+    │
+    └── providers/
+        ├── dio_provider.dart
+        ├── connectivity_provider.dart
+        └── storage_provider.dart
